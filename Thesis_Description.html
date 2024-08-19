@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome file</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><p>Về KLTN, thầy Bắc chỉ mới đưa cho em paper <a href="https://trankhacbinh.github.io/pdf-repo/Fast%20privacy-preserving%20utility%20mining%20algorithm%20based%20on%20utility-list%20dictionary.pdf">Fast privacy-preserving utility mining algorithm based on utility-list dictionary</a> và yêu cầu em tìm hiểu về nó cũng như các khái niệm liên quan.</p>
+<p>Tóm tắt nội dung của paper: Đề xuất thuật toán <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext mathvariant="bold">fast</mtext><mtext>&nbsp;</mtext><mtext mathvariant="bold">utility-list</mtext><mtext>&nbsp;</mtext><mtext mathvariant="bold">dictionary</mtext><mtext>&nbsp;</mtext><mtext mathvariant="bold">(FULD)</mtext></mrow><annotation encoding="application/x-tex">\textbf{fast utility-list dictionary (FULD)}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord text"><span class="mord textbf">fast&nbsp;utility-list&nbsp;dictionary&nbsp;(FULD)</span></span></span></span></span></span> để ẩn các <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext mathvariant="bold">sensitive</mtext><mtext>&nbsp;</mtext><mtext mathvariant="bold">utility</mtext><mtext>&nbsp;</mtext><mtext mathvariant="bold">itemsets</mtext></mrow><annotation encoding="application/x-tex">\textbf{sensitive utility itemsets}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.88888em; vertical-align: -0.19444em;"></span><span class="mord text"><span class="mord textbf">sensitive&nbsp;utility&nbsp;itemsets</span></span></span></span></span></span> trong <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext mathvariant="bold">privacy</mtext><mtext>&nbsp;</mtext><mtext mathvariant="bold">preserving</mtext><mtext>&nbsp;</mtext><mtext mathvariant="bold">utility</mtext><mtext>&nbsp;</mtext><mtext mathvariant="bold">mining</mtext><mtext>&nbsp;</mtext><mtext mathvariant="bold">(PPUM)</mtext></mrow><annotation encoding="application/x-tex">\textbf{privacy preserving utility mining (PPUM)}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord text"><span class="mord textbf">privacy&nbsp;preserving&nbsp;utility&nbsp;mining&nbsp;(PPUM)</span></span></span></span></span></span>.</p>
+<p><span class="katex--inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext mathvariant="bold">Fast</mtext><mtext>&nbsp;</mtext><mtext mathvariant="bold">utility-list</mtext><mtext>&nbsp;</mtext><mtext mathvariant="bold">dictionary</mtext><mtext>&nbsp;</mtext><mtext mathvariant="bold">(FULD)</mtext></mrow><annotation encoding="application/x-tex">\textbf{Fast utility-list dictionary (FULD)}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord text"><span class="mord textbf">Fast&nbsp;utility-list&nbsp;dictionary&nbsp;(FULD)</span></span></span></span></span></span> gồm 3 thuật toán nhỏ:</p>
+<ul>
+<li>
+<p>Algorithm 1: Xây dựng utility-list dictionary (UTLDic) từ transaction database (csdl gốc). Mã giả của thuật toán được trình bày trong paper.</p>
+</li>
+<li>
+<p>Algorithm 2: Tạo ra sanitized UTLDic bằng cách ẩn sensitive high-utility itemsets dựa vào UTLDic. Mã giả của thuật toán được trình bày trong paper.</p>
+</li>
+<li>
+<p>Algorithm 3: Tạo ra sanitized database (csdl đã được làm sạch) dựa vào sanitized UTLDic. Không được trình bày và không có mã giả trong paper.</p>
+</li>
+</ul>
+<p>Do đó, em đã đề xuất Algorithm 3, được trình bày trong <a href="https://trankhacbinh.github.io/pdf-repo/Algorithm_3__Generate_Sanitized_Database.pdf">Algorithm 3: Generate Sanitized Database</a>. Code Python của thuật toán FULD được em triển khai trong <a href="https://colab.research.google.com/drive/1LtiGmTQGbhSnt0bqVb_K1OkCcAYFx0Rv?usp=sharing">FULD.ipynb</a></p>
+</div>
+</body>
+
+</html>
